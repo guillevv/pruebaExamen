@@ -4,12 +4,12 @@ public class Producto {
 	
 	public String nombre;
 	public String categoria;
-	public float precio;
+	public String precio;
 	public String ean13;
 	
 	
 	
-	public Producto(String nombre, String categoria, float precio, String ean13) {
+	public Producto(String nombre, String categoria, String precio, String ean13) {
 		super();
 		this.nombre = nombre;
 		this.categoria = categoria;
@@ -29,10 +29,10 @@ public class Producto {
 	public void setCategoria(String categoria) {
 		this.categoria = categoria;
 	}
-	public float getPrecio() {
+	public String getPrecio() {
 		return precio;
 	}
-	public void setPrecio(float precio) {
+	public void setPrecio(String precio) {
 		this.precio = precio;
 	}
 	public String getEan13() {

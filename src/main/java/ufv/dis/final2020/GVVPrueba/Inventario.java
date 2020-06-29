@@ -11,7 +11,14 @@ public class Inventario {
 	}
 	
 	
+	public void AddProduct(Producto p) {
+		this.productos.add(p);
+	}
 	
-	public 
+	public void removeProduct(Producto p) {
+		this.productos.remove(p);
+	}
+	
+	
 	
 }
